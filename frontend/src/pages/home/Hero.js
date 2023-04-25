@@ -19,7 +19,6 @@ export default function Hero() {
           placeholder="Search events..."
           required
         />
-
         <button className="text-white bg-blue-700 absolute right-2 top-2 focus:ring-4 focus:ring-blue-400 hover:bg-blue-800 font-medium rounded-lg px-4 py-2">Search</button>
       </form>
 

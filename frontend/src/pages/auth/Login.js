@@ -15,7 +15,7 @@ export default function Login({toggleUser}) {
   }
 
   const handleLogin = () => {
-    if(username == "admin" && password == "password"){
+    if(username === "admin" && password === "password"){
       toggleUser()
     }
     else{
